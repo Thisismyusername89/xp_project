@@ -1,0 +1,107 @@
+.menu_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  position: absolute;
+  bottom: 440rem;
+  height: 50rem;
+  width: 360rem;
+  border-radius: 7rem 7rem 0 0;
+  background: linear-gradient(
+    rgb(24, 104, 206) 0%,
+    rgb(14, 96, 203) 12%,
+    rgb(14, 96, 203) 20%,
+    rgb(17, 100, 207) 32%,
+    rgb(22, 103, 207) 33%,
+    rgb(27, 108, 211) 47%,
+    rgb(30, 112, 217) 54%,
+    rgb(36, 118, 220) 60%,
+    rgb(41, 122, 224) 65%,
+    rgb(52, 130, 227) 77%,
+    rgb(55, 134, 229) 79%,
+    rgb(66, 142, 233) 90%,
+    rgb(71, 145, 235) 100%
+  );
+}
+.menu {
+  display: flex;
+  position: absolute;
+  height: 400rem;
+  width: 360rem;
+  background-color: cornsilk;
+}
+.menu_1,
+.menu_2 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 50%;
+  font-size: 12rem;
+}
+.menu_2 {
+  background-color: rgb(203, 227, 255);
+}
+.menu_1 img,
+.menu_2 img {
+  height: 40rem;
+  width: 40rem;
+}
+.icons {
+  margin-top: 10rem;
+  margin-left: 4rem;
+  display: flex;
+  justify-content: safe;
+  align-items: center;
+  text-decoration: underline;
+}
+.icons:hover {
+  transform: scale(1.1);
+  border-bottom: 1rem solid rgb(165, 158, 158);
+}
+.icons span {
+  margin: 0 5rem;
+}
+.taskbar {
+  font-size: 25rem;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 40rem;
+  width: 100vw;
+}
+.nav_bar {
+  bottom: 0;
+  height: 40rem;
+  width: 100vw;
+  background: linear-gradient(
+    rgb(31, 47, 134) 0px,
+    rgb(49, 101, 196) 3%,
+    rgb(54, 130, 229) 6%,
+    rgb(68, 144, 230) 10%,
+    rgb(56, 131, 229) 12%,
+    rgb(43, 113, 224) 15%,
+    rgb(38, 99, 218) 18%,
+    rgb(35, 91, 214) 20%,
+    rgb(34, 88, 213) 23%,
+    rgb(33, 87, 214) 38%,
+    rgb(36, 93, 219) 54%,
+    rgb(37, 98, 223) 86%,
+    rgb(36, 95, 220) 89%,
+    rgb(33, 88, 212) 92%,
+    rgb(29, 78, 192) 95%,
+    rgb(25, 65, 165) 98%
+  );
+}
+.start_btn {
+  height: 100%;
+}
+.notbelow {
+  bottom: 40rem;
+}
+.below {
+  bottom: -500rem;
+  left: -500rem;
+}

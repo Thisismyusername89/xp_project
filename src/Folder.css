@@ -1,0 +1,98 @@
+.Folder {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  font-size: 13rem;
+  color: white;
+}
+.Folder img {
+  cursor: pointer;
+  height: 50rem;
+  width: 50rem;
+}
+.bar {
+  position: absolute;
+  margin: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30rem;
+  width: 450rem;
+  border: 2rem solid rgb(55, 55, 218);
+  border-radius: 7rem 7rem 0 0;
+  background: linear-gradient(
+    rgb(31, 47, 134) 0px,
+    rgb(49, 101, 196) 3%,
+    rgb(54, 130, 229) 6%,
+    rgb(68, 144, 230) 10%,
+    rgb(56, 131, 229) 12%,
+    rgb(43, 113, 224) 15%,
+    rgb(38, 99, 218) 18%,
+    rgb(35, 91, 214) 20%,
+    rgb(34, 88, 213) 23%,
+    rgb(33, 87, 214) 38%,
+    rgb(36, 93, 219) 54%,
+    rgb(37, 98, 223) 86%,
+    rgb(36, 95, 220) 89%,
+    rgb(33, 88, 212) 92%,
+    rgb(29, 78, 192) 95%,
+    rgb(25, 65, 165) 98%
+  );
+}
+.spann {
+  display: flex;
+  align-items: center;
+}
+.spann img {
+  height: 25rem;
+  width: 25rem;
+}
+.bar_name {
+  font-size: 20rem;
+  color: blanchedalmond;
+}
+.window-body {
+  border: 2rem solid rgb(84, 84, 252);
+  position: absolute;
+  margin-top: 50rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  height: 330rem;
+  width: 450rem;
+  background-color: white;
+  color: black;
+}
+.empty {
+  height: 15rem;
+  border-bottom: 0.5rem solid rgb(29, 28, 27);
+}
+.second-layer {
+  display: flex;
+  align-items: center;
+  height: 40rem;
+}
+.second-layer img {
+  margin: 0 5rem;
+  height: 30rem;
+  width: 30rem;
+}
+.second-layer span {
+  font-size: 15rem;
+}
+.notabove {
+  display: none;
+}
+.address {
+  background-color: white;
+  border-top: 0.5rem solid rgb(29, 28, 27);
+  border-bottom: 0.5rem solid rgb(29, 28, 27);
+}
+.address span {
+  margin: 0 5rem;
+  color: rgb(187, 113, 16);
+}
+.movie {
+  margin: 20rem;
+  display: flex;
+  flex-direction: column;
+}
