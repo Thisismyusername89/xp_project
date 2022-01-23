@@ -14,7 +14,7 @@ export default function Folder({ folder_name }) {
       <div className={`"folder_content" ${!above ? "" : "notabove"}`}>
         <div className="bar">
           <span className="spann">
-            <img src="images/folder_icon.png"></img>
+            <img src="images/folder_icon.png" alt=""></img>
             <div className="bar_name">{folder_name}</div>
           </span>
           <div className="btns">
@@ -26,10 +26,10 @@ export default function Folder({ folder_name }) {
         <div className="window-body">
           <div className="empty"></div>
           <div className="second-layer">
-            <img src="images/arrow-previous.png"></img>
+            <img src="images/arrow-previous.png" alt=""></img>
             <span>Back</span>
-            <img src="images/arrow-next.png"></img>
-            <img src="images/search.png"></img>
+            <img src="images/arrow-next.png" alt=""></img>
+            <img src="images/search.png" alt=""></img>
             <span>Search</span>
           </div>
           <div className="address">
@@ -37,6 +37,7 @@ export default function Folder({ folder_name }) {
           </div>
           <div className="movie">
             <iframe
+              title="anything"
               src="https://drive.google.com/file/d/14iEzjzShh4v5gQGzXfq_Gflls4cnF65R/preview"
               width="100"
               height="80"
